@@ -3,4 +3,17 @@ cc_binary(
     srcs = [
         "hello.cpp",
     ],
+    deps = [
+        ":greeting",
+    ],
 )
+
+cc_library(
+    name = "greeting",
+    srcs = [
+        "greeting.cc",
+    ],
+    hdrs = [
+        "greeting.h",
+    ],
+  )
