@@ -12,3 +12,7 @@ Run the executable file to see the results.
 ### Add more targets
 
 You can find more targets in `welcome/BUILD`.
+
+### Add another package
+
+You can find the package in `modules/time_utils`.

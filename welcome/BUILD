@@ -5,6 +5,7 @@ cc_binary(
     ],
     deps = [
         ":greeting",
+        "//modules/time_utils:timer",
     ],
 )
 
